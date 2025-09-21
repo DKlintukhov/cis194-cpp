@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.1.1)
+cmake_minimum_required(VERSION 3.31.6)
 
 if (PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
     message(FATAL_ERROR "In-source builds are not allowed. You should create separate directory for build files")
@@ -25,4 +25,4 @@ endif()
 find_package(Threads REQUIRED)
 
 add_subdirectory(homework1)
-
+add_subdirectory(homework2)
