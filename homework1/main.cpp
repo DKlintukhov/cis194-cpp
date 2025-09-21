@@ -47,5 +47,6 @@ int main(int argc, char *argv[]) {
 
     assert(validate(4532015112830366));
     assert(!validate(4532015112830367));
+
     return 0;
 }
